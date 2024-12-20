@@ -6,7 +6,7 @@ struct SinhVien {
 };
 int main() {
     struct SinhVien sv;
-    sprintf(sv.name, "Nguyen Van A");
+    sprintf(sv.name, "Nguyen Truong An");
     sv.age = 20;
     sprintf(sv.phoneNumber, "0123456789");
     printf("Thong tin sinh vien:\n");
